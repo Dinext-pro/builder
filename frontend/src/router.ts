@@ -28,7 +28,7 @@ const validateVisit = function (
 			})
 				.submit({
 					doctype: "Builder Page",
-					docname: null,
+					docname: "",
 					perm_type: "write",
 				})
 				.then((res: { has_permission: boolean }) => {

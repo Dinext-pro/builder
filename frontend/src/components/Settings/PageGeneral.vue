@@ -147,7 +147,7 @@ import AuthenticatedUserIcon from "@/components/Icons/AuthenticatedUser.vue";
 import { builderSettings } from "@/data/builderSettings";
 import useStore from "@/store";
 import { Tooltip } from "frappe-ui";
-import FeatherIcon from "frappe-ui/src/components/FeatherIcon.vue";
+import { FeatherIcon } from "frappe-ui";
 import { computed } from "vue";
 // check route for page id
 

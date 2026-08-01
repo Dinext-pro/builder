@@ -43,7 +43,7 @@
 <script setup lang="ts">
 import { isNumber } from "@tiptap/vue-3";
 import { Popover } from "frappe-ui";
-import FeatherIcon from "frappe-ui/src/components/FeatherIcon.vue";
+import { FeatherIcon } from "frappe-ui";
 import { PropType, computed } from "vue";
 import Autocomplete from "./Autocomplete.vue";
 import InputLabel from "./InputLabel.vue";

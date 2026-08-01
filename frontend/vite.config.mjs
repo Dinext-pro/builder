@@ -8,7 +8,17 @@ export default defineConfig({
 	define: {
 		__VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
 	},
-	plugins: [frappeui({ source: "^/(app|login|api|assets|files|pages|builder_assets)" }), vue()],
+	plugins: [
+        frappeui({
+        source: "^/(app|login|api|assets|files|pages|builder_assets)",
+        buildConfig: {
+            outDir: "../builder/public/frontend",
+            indexHtmlPath: "../builder/www/_builder.html",
+            baseUrl: "/assets/builder/frontend/"
+        }
+        }),
+        vue()
+            ],
 	resolve: {
 		alias: {
 			"@": path.resolve(__dirname, "src"),
