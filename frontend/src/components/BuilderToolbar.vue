@@ -159,7 +159,7 @@ import SettingsGearIcon from "@/components/Icons/SettingsGear.vue";
 import { webPages } from "@/data/webPage";
 import { BuilderPage } from "@/types/Builder/BuilderPage";
 import { Dialog, Tooltip } from "frappe-ui";
-import Popover from "frappe-ui/src/components/Popover.vue";
+import { Popover } from "frappe-ui";
 import { computed, ref } from "vue";
 import { toast } from "vue-sonner";
 import useStore from "../store";
