@@ -1,0 +1,8 @@
+{
+  "app": "builder",
+  "package_dir": "builder",
+  "mode": "repository",
+  "gitflow": false,
+  "frontend_tests": false,
+  "skip_test_records": false
+}
